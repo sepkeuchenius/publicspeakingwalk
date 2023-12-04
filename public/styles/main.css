@@ -1,6 +1,9 @@
 * {
     background-repeat: no-repeat;
 }
+:root {
+    --black: #393632
+}
 #title {
     max-width: 1000px;
     margin: 0 auto;
@@ -15,6 +18,7 @@ body{
     background: linear-gradient(rgb(147 188 225 / 29%) , rgb(147 188 225));
     background: linear-gradient(rgb(99 131 159) , rgb(147 188 225));
     background: linear-gradient(rgb(113 149 179) , rgb(147 188 225));
+    background: linear-gradient(rgb(237 241 243) , rgb(147 188 225));
     color:#343333;
     margin:0;
 }
@@ -30,7 +34,7 @@ h1{
     width:100%;
     padding-top:40px;
     text-align: center;
-    height:250px;
+    height:450px;
     box-sizing: border-box;
     padding:130px 250px;
     background: url('../assets/mewis-semi-blurred.png') 50% 60%/cover no-repeat;
@@ -42,7 +46,7 @@ h1{
 }
 main {
     width: 100%;
-    padding:20px 100px 0px 100px;    
+    padding:100px 100px 0px 100px;    
     box-sizing: border-box;
 }
 .foot {
@@ -104,7 +108,7 @@ nav a {
     max-width:600px;
     font-weight: bold;
     -webkit-text-stroke-width: 1px;
-    color: #ecb971;
+    color: var(--black);
 
 }
 .left{
@@ -122,7 +126,7 @@ nav a {
     float:right
 }
 #subhero {
-    color:white;
+    color:var(--black);
     font-size:20px;
     max-width:800px;
     font-weight: bold;
@@ -274,7 +278,7 @@ footer{
     width:100px;margin-left:calc(100% - 100px);display:block;
 }
 #i-m-mewis{
-    margin:15vh -100px; width:calc(100% + 200px); background: #86adcf; padding: 15vh 0;
+    margin:100px -100px; width:calc(100% + 200px); background: #86adcf; padding: 15vh 0;
 }
 #i-m-mewis p{
     text-align:center;box-sizing:border-box;font-size:22px;padding:0 calc(50% - 350px);
@@ -310,7 +314,7 @@ tr{
     min-height: 300px;
 }
 #subsubhero{
-    color: white;
+    color:var(--black);
     font-size: 21px;
     max-width: 751px;
     font-weight: normal;
@@ -337,7 +341,7 @@ tr{
   .dropdown-content a {
     text-decoration: none;
     display: block;
-    font-size:15px;
+    font-size:17px;
     padding:7px;
     font-weight: lighter;
   }
