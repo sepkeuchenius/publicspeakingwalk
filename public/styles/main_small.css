@@ -1,0 +1,147 @@
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 5px;
+    }
+    h1{
+        font-size: 43px;
+    }
+    nav {
+        text-align: center;
+        width:100%;
+        left:0;
+        /* background-color: #7195b3; */
+        box-sizing: border-box;
+        top: 0;
+        padding-top: 12px;
+        padding-bottom: 16px;
+    }
+    nav a {
+        border-bottom: none;
+        padding: 6px;
+        margin: 3px;
+        background: #759cba;
+        border-radius: 7px;
+    }
+    .page {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin:20px 0;
+    }
+    
+    .page p {
+        /* background-color: transparent; */
+        font-size:13px;
+        /* padding:0; */
+        padding: 0px calc(50% - 200px);
+        text-align: center;;
+
+    }
+    footer {
+        padding-left:30px;
+        height:auto;
+    }
+    #subsubhero {
+        margin-left:0;
+        padding:0 10px;
+        font-weight: normal;
+        font-size:15px;
+        padding: 0px calc(50% - 200px);
+        margin:60px 0;
+    }
+    #subhero{
+        margin-left:0;
+        padding:0 10px;
+        font-weight: normal;
+        font-size:18px;
+        padding: 0px calc(50% - 200px);
+        margin:60px 0;
+    }
+    .hero {
+        padding:90px 0;
+        height:90px;
+        background: url('mewis-blurred.png') 32% 60%/172% no-repeat;
+        background: url('mewis-blurred.png') 32% 58%/170% no-repeat
+    }
+    #reviews{
+        padding:0;
+    }
+    #mewis {
+        margin-bottom:30px;
+    }
+    .right, .right h3, .right p {
+        float:none;
+        text-align: left;
+    }
+    .page h3{
+        text-align: center;
+    }
+    .review {
+        width:200px;
+        font-size:12px;
+    }
+    #book-me {
+        width:90%;
+        left:5%;
+    }
+    #book-me textarea{
+        width:80%;
+    }
+    #pages {
+        margin-bottom:60px;
+        margin-top:0px;
+        display:inline-block;
+    }
+    .reviewer-name {
+        margin:5px;
+    }
+    .rating {
+        margin:3px;
+    }
+
+    #foot {
+        margin:0 auto;
+    }
+    nav a {
+        font-size:15px;
+        font-weight: normal;
+    }
+    #public-title-2{
+        display:block;
+    }
+    .language-button {
+        vertical-align: -40%;
+        width:38px;
+    }
+    #i-m-mewis{
+        margin:0;
+        width:100%;
+        padding:20px;
+        box-sizing: border-box;
+        margin-top:100px;
+        margin-bottom:100px;
+        padding:100px 10px;
+    }
+    #i-m-mewis p {
+        font-size:13px;
+        padding: 0px calc(50% - 200px);
+
+    }
+    #skyline {
+        margin-top:60px;
+        width:90%;
+        margin-left:5%;
+    }
+    #title {
+        margin:70px 0;
+    }
+    #pricing-content{
+        margin:0;
+        font-size:18px;
+        width:auto;
+    }
+    td{
+        padding:10px 0;
+    }
+}
+
