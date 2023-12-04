@@ -145,9 +145,18 @@
     }
     #mewis-head {
         width:200px;
+        display: block;
+        margin:10px auto;
     }
     #mewis-text {
-        max-width: min(700px, calc(100% - 240px));
+        max-width: max(100%, 700px);
+        display: block;
+        margin:10px auto;
+        margin-top:100px;
+        vertical-align: sub;
+    }
+    #i-m-mewis{
+        padding:50px;
     }
 }
 
