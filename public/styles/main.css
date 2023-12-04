@@ -356,3 +356,19 @@ tr{
     cursor:pointer;
     text-decoration: underline;
   }
+
+#mewis-head {
+    width:300px;
+    display: inline-block;
+    border-radius: 60px;;
+    margin:10px;
+}
+#mewis-text {
+    max-width: min(700px, calc(100% - 350px));
+    display: inline-block;
+    vertical-align: 400%;
+}
+#mewis-inner {
+    margin:0 auto;
+    width: min(1000px, 100%)
+}

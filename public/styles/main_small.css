@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     main {
         padding: 5px;
     }
@@ -60,8 +60,8 @@
     .hero {
         padding:90px 0;
         height:90px;
-        background: url('mewis-blurred.png') 32% 60%/172% no-repeat;
-        background: url('mewis-blurred.png') 32% 58%/170% no-repeat
+        background: url('../assets/mewis-blurred.png') 32% 60%/172% no-repeat;
+        background: url('../assets/mewis-blurred.png') 32% 58%/170% no-repeat
     }
     #reviews{
         padding:0;
@@ -142,6 +142,12 @@
     }
     td{
         padding:10px 0;
+    }
+    #mewis-head {
+        width:200px;
+    }
+    #mewis-text {
+        max-width: min(700px, calc(100% - 240px));
     }
 }
 

@@ -27,155 +27,41 @@
   <nav>
     <img src="assets/dutch.svg" onclick="toggleLanguage()" class="english language-button">
     <img src="assets/english.svg" onclick="toggleLanguage()" class="dutch language-button">
+
     <div class="dropdown">
-      <a class="dropbtn page-link"><span class="english">Options</span><span class="dutch">Opties</span></a>
+      <a class="dropbtn page-link">Workshop</a>
       <div class="dropdown-content">
-        <a href="#" class="page-link" onclick="show('the-walk')"><span class="english">The Walk</span><span
-            class="dutch">De Walk</span></a>
-        <a href="#" class="page-link" onclick="show('the-workshop')"><span class="english">The Workshop</span><span
-            class="dutch">De Workshop</span></a>
+        <a href="/captivating-speaking-workshop-overview" class="page-link">
+          <span class="english">Captivating Speaking Workshop Overview</span>
+          <span class="dutch">Pakkend Spreken Overzicht</span>
+        </a>
+        <a href="/captivating-speaking-training-workshop" class="page-link">
+          <span class="english">Captivating Speaking Training Workshop</span>
+          <span class="dutch">Pakken Spreken Training</span>
+        </a>
+
+        <a href="/captivating-speaking-day-training" class="page-link">
+          <span class="english">Captivating Speaking Day Training</span>
+          <span class="dutch">Pakken Spreken Dagtraining</span>
+        </a>
       </div>
     </div>
-    <a class="page-link" href="#reviews" onclick="show('main')">Reviews</a>
+
+    <div class="dropdown">
+      <a class="dropbtn page-link"><span class="english">About</span><span class="dutch">Over</span></a>
+      <div class="dropdown-content">
+        <a href="/about-mewis" class="page-link"><span class="english">About Mewis</span><span class="dutch">Over
+            Mewis</span></a>
+        <a href="#reviews" class="page-link"><span class="english">Testimonials</span><span
+            class="dutch">Reviews</span></a>
+      </div>
+    </div>
     <a class="page-link" onclick="showBookMe()">Contact</a>
-    <a class="page-link" onclick="show('pricing')"><span class="english">Pricing</span><span
-        class="dutch">Prijzen</span></a>
+
   </nav>
   <div class="hero">
 
   </div>
-  <main id="the-workshop" style="display: none;">
-    <img src="assets/back.svg" onclick="show('main')" style="position: absolute;top:20px;left:20px;cursor:pointer;width:30px;">
-    <h1>
-      <span class="dutch">
-        De Workshop
-      </span>
-      <span class="english">
-        The Workshop
-      </span>
-    </h1>
-    <div id="the-workshop-content">
-      <p class="dutch">
-        In de workshop komen alle puzzelstukjes van een geweldige speech aan bod. Deze puzzelstukjes worden tot leven
-        gebracht door middel van demonstraties, en door een reeks van minipresentaties van mensen uit het publiek. Het
-        doel van de workshop is om je zelfbewuster te maken, ook van gedrag waarvan je niet wist dat het verbeterd kon
-        worden. Een stoelenkring zorgt voor een knusse leeromgeving. De workshop heeft een 2 en een 3 uur durende
-        versie. In de 3 uur durende sessie zijn er extra rondes van bewuste oefening en feedback.
-      </p>
-
-      <p class="english">
-        In the workshop all elements of what makes a great speech are discussed. The elements are brought to life
-        through demonstrations, and through a series of mini presentations from people in the crowd. The aim of the
-        workshop is to make you more self-conscious, even of behaviour you didn't know you could improve on. A circle of
-        chairs makes for a cozy learning environment. The workshop has a 2-hour and a 3-hour long version. In the 3-hour
-        session there are extra deliberate practice rounds.
-      </p>
-    </div>
-  </main>
-  <main id="the-walk" style="display: none;">
-    <img src="assets/back.svg" onclick="show('main')" style="position: absolute;top:20px;left:20px;cursor:pointer;width:30px;">
-    <h1>
-      <span class="dutch">
-        De Walk
-      </span>
-      <span class="english">
-        The Walk
-      </span>
-    </h1>
-    <div id="the-walk-content">
-      <p class="dutch">
-        In De Walk komen alle puzzelstukjes van een geweldige speech aan bod. Deze puzzelstukjes worden tot leven
-        gebracht door middel van demonstraties, en door een reeks van minipresentaties van mensen uit het publiek.
-        Tussen de onderwerpen door, lopen wij van plek naar plek in de stad. De demonstraties zijn gebaseerd op de
-        omgeving van dat moment. Het doel van De Walk is om je zelfbewuster te maken, ook van gedrag waarvan je niet
-        wist dat het verbeterd kon worden. Jouw stad zorgt voor een opwindende leeromgeving.
-      </p>
-
-      <p class="english">
-        In The Walk all elements of what makes a great speech are discussed. The topics are brought to life through
-        demonstrations, and through a series of mini presentations from people in the crowd. Between the different
-        topics, we walk from place to place in your city. The demonstrations are based on the surroundings of that given
-        moment. The aim of The Walk is to make you more self-conscious, even of behaviour you didn't know you could
-        improve on. Your city makes for an exciting learning environment.
-      </p>
-    </div>
-  </main>
-  <main id="pricing" style="display:none;padding:30px;position:relative">
-    <img src="assets/back.svg" onclick="show('main')" style="position: absolute;top:20px;left:20px;cursor:pointer;width:30px;">
-    <h1>
-      <span class="dutch">
-        Prijzen
-      </span>
-      <span class="english">
-        Pricing
-      </span>
-    </h1>
-    <div id="pricing-content">
-      <p class="dutch">
-      <table class="dutch">
-        <tbody>
-          <tr>
-            <td><a class="inline-link" onclick='show("the-walk")'>The Walk</a> (2 uur)</td>
-            <td>€ 899, -</td>
-          </tr>
-          <tr>
-            <td>Public speaking <a class="inline-link" onclick='show("the-workshop")'>The Workshop</a> -<br> op locatie
-              ( 2 uur) </td>
-            <td>€ 699, - </td>
-          </tr>
-          <tr>
-          </tr>
-          <td>Public speaking <a class="inline-link" onclick='show("the-workshop")'>The Workshop</a> -<br> op locatie (
-            3 uur) </td>
-          <td> € 899, - </td>
-        </tbody>
-      </table>
-      </p>
-      <p class="dutch">
-        Neem contact op om de mogelijkheden te bespreken<br>
-        <a href="mailto:mewis@publicspeakingwalk.com">mewis@publicspeakingwalk.com</a> <br>
-        <br><br>
-        +31628072215
-        <br><br>
-        Uitzonderingen kunnen worden gemaakt voor organisaties in de publieke sector of non-profitorganisaties.
-        <br>
-        <br>
-      </p>
-      <p class="english">
-      <table class="english">
-        <tbody>
-          <tr>
-            <td><a class="inline-link" onclick='show("the-walk")'>The Walk</a> (2 uur)</td>
-            <td>€ 899, -</td>
-          </tr>
-          <tr>
-            <td>Public speaking <a class="inline-link" onclick='show("the-workshop")'>The Workshop</a> -<br> on location
-              (2 uur) </td>
-            <td>€ 699, - </td>
-          </tr>
-          <tr>
-            <td>Public speaking <a class="inline-link" onclick='show("the-workshop")'>The Workshop</a> -<br> on location
-              (3 uur) </td>
-            <td>€ 899, - </td>
-          </tr>
-        </tbody>
-      </table>
-      </p>
-      <p class="english">
-        Get in touch to discuss the options <br>
-        <a href="mailto:mewis@publicspeakingwalk.com">mewis@publicspeakingwalk.com</a> <br>
-        <br>
-        +31628072215
-        <br>
-        <br>
-
-        Exceptions can be made for organizations in the public sector or non profit organizations.
-        <br>
-        <br>
-      </p>
-
-    </div>
-  </main>
   <main id="main">
 
     <h1 id="title">
@@ -220,23 +106,31 @@
     <img src="assets/Rotterdam.svg" id="skyline">
 
 
-    <div id="i-m-mewis" style="">
-      <h1 style="text-align:center;">Hi, I'm Mewis</h1>
-      <p style="">
-        <span class='english'>
-          I’m a passionate speaker, a coach and a guide.
-          Public speaking is my passion. I have been studying and practicing by giving tours and lectures to thousands
-          of people. The purpose of the Public Speaking Walk is to invoke some of my passion in you and to make you more
-          mindful in noticing your own communication habits.
-          <br><br>Read on for the why’s and the how’s.
-        </span>
-        <span class="dutch">
-          Ik ben een gepassioneerde spreker, coach en gids. Public speaking is mijn passie. Ik heb gestudeerd en
-          geoefend aan de hand van het geven van honderden tours en colleges. Het doel van Public Speaking Walk is om
-          wat van mijn passie aan te wakkeren bij jou.
-          <br><br>Lees verder voor waarom en hoe.
-        </span>
-      </p>
+    <div id="i-m-mewis">
+      <div id="mewis-inner">
+        <img src="assets/mewis.jpg" id="mewis-head" />
+        <div id="mewis-text">
+          <h1 style="text-align:center;">Hi, I'm Mewis</h1>
+          <p>
+            <span class='english'>
+              I’m a passionate speaker, a coach and a guide.
+              Public speaking is my passion. I have been studying and practicing by giving tours and lectures to
+              thousands
+              of people. The purpose of the Public Speaking Walk is to invoke some of my passion in you and to make you
+              more
+              mindful in noticing your own communication habits.
+              <br><br>Read on for the why’s and the how’s.
+            </span>
+            <span class="dutch">
+              Ik ben een gepassioneerde spreker, coach en gids. Public speaking is mijn passie. Ik heb gestudeerd en
+              geoefend aan de hand van het geven van honderden tours en colleges. Het doel van Public Speaking Walk is
+              om
+              wat van mijn passie aan te wakkeren bij jou.
+              <br><br>Lees verder voor waarom en hoe.
+            </span>
+          </p>
+        </div>
+      </div>
 
     </div>
 
@@ -504,6 +398,10 @@
 
   <div id="book-me">
     <h3>Contact</h3>
+    <p>
+      <a href="mailto:mewis@publicspeakingwalk.com">mewis@publicspeakingwalk.com</a> <br>
+      <a href="+31628072215">+31628072215</a> <br>
+    </p>
     <p>
       <span class="english">
         Leave your details and your request, I will get back to you as soon as I can!
