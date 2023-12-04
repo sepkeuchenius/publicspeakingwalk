@@ -1,6 +1,6 @@
 @media only screen and (max-width: 800px) {
     main {
-        padding: 5px;
+        padding: 5px 0;
     }
     h1{
         font-size: 43px;
@@ -26,7 +26,8 @@
         width: 100%;
         box-sizing: border-box;
         padding: 10px;
-        margin:20px 0;
+        margin:50px 0;
+        padding: 10px max(30px, calc(50% - 200px));
     }
     
     .page p {
@@ -119,11 +120,11 @@
         padding:20px;
         box-sizing: border-box;
         margin-top:100px;
-        margin-bottom:100px;
+        margin-bottom:40px;
         padding:100px 10px;
     }
     #i-m-mewis p {
-        font-size:13px;
+        font-size:15px;
         padding: 0px calc(50% - 200px);
 
     }
@@ -157,6 +158,13 @@
     }
     #i-m-mewis{
         padding:50px;
+    }
+    .page h3 {
+        text-align: left;
+    }
+    .page .active-button {
+        left: calc(max(30px, calc(50% - 200px)) + 20px);
+
     }
 }
 
