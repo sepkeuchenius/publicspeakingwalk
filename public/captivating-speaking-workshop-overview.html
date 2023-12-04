@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Public Speaking Walk - Informative and inspiring event for your team</title>
+  <meta name="description"
+    content="Looking for a highly entertaining, informative and inspiring workshop for your team, colleagues or students? Public Speaking Walk gives you insights in the art of public speaking while seeing the beauty of your city.">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name="description"
+    content="Looking for a highly entertaining, informative and inspiring workshop for your team, colleagues or students? Public Speaking Walk gives you insights in the art of public speaking while seeing the beauty of your city.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/main_small.css'>
+  <script src='js/main.js'></script>
+  <link rel="icon" type="image/svg" href="assets/speak.svg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <nav>
+    <img src="assets/dutch.svg" onclick="toggleLanguage()" class="english language-button">
+    <img src="assets/english.svg" onclick="toggleLanguage()" class="dutch language-button">
+
+    <div class="dropdown">
+      <a class="dropbtn page-link">Workshop</a>
+      <div class="dropdown-content">
+        <a href="/captivating-speaking-workshop-overview" class="page-link">
+          <span class="english">Captivating Speaking Workshop Overview</span>
+          <span class="dutch">Pakkend Spreken Overzicht</span>
+        </a>
+        <a href="/captivating-speaking-training-workshop" class="page-link">
+          <span class="english">Captivating Speaking Training Workshop</span>
+          <span class="dutch">Pakken Spreken Training</span>
+        </a>
+
+        <a href="/captivating-speaking-day-training" class="page-link">
+          <span class="english">Captivating Speaking Day Training</span>
+          <span class="dutch">Pakken Spreken Dagtraining</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a class="dropbtn page-link"><span class="english">About</span><span class="dutch">Over</span></a>
+      <div class="dropdown-content">
+        <a href="/about-mewis" class="page-link"><span class="english">About Mewis</span><span class="dutch">Over
+            Mewis</span></a>
+        <a href="#reviews" class="page-link"><span class="english">Testimonials</span><span
+            class="dutch">Reviews</span></a>
+      </div>
+    </div>
+    <a class="page-link" onclick="showBookMe()">Contact</a>
+
+  </nav>
+  <div class="hero">
+
+  </div>
+  <main id="main">
+
+    <h1 id="title">
+      Captivating Speaking Overview
+     
+    </h1>
+    
+    <p id="subhero">
+      <span class="english">
+        The workshop is about becoming a more charismatic, more captivating speaker. 
+In the 2h workshop all elements of what makes a great speech are discussed. The elements are brought to life through demonstrations, and through a series of mini presentations from people in the crowd. The demonstrative nature makes it concrete, memorable and visible. Everything you hear, you will also see in action.
+The workshop inevitably prompts you to analyze your own speaking habits.
+After the workshop you will have met all the tools to improve these habits
+
+      </span>
+      <span class="dutch">
+        Op zoek naar een vermakelijke, informatieve en inspirerende workshop voor uw team, collega's of studenten?
+        Public Speaking Walk geeft je inzicht in de kunst van public speaking terwijl je jouw stad op zijn mooist
+        ervaart.
+      </span>
+    </p>
+
+    <br>
+    <div style="text-align: center;width: 100%;">
+      <button class="active-button" onclick="showBookMe()" style="box-shadow: 0px 3px 4px rgb(0 0 0 / 20%)">
+        <span class="english">
+          Contact
+        </span>
+        <span class="dutch">
+          Contact
+        </span>
+      </button>
+    </div>
+    <br>
+    <img src="assets/Rotterdam.svg" id="skyline">
+
+
+    <div id="i-m-mewis">
+      <div id="mewis-inner">
+        <img src="assets/mewis.jpg" id="mewis-head" />
+        <div id="mewis-text">
+          <h1 style="text-align:center;">Hi, I'm Mewis</h1>
+          <p>
+            <span class='english'>
+              I work hard to deliver entertaining, inspiring and helpful workshops. I give pragmatic advice about a
+              topic I’m deeply passionate about. Some people tell me they had a lot of fun in my workshops. Others tell
+              me I’ve completely changed the way they view their own communication habits.
+              <br><br>Read on for the why’s and the how’s.
+            </span>
+            <span class="dutch">
+              Hi, ik ben Mewis
+              Ik werk hard om vermakelijke, inspirerende en nuttige workshops te geven. Ik geef pragmatisch advies over
+              een onderwerp waar ik een grote passie voor heb. Sommige mensen vertellen me dat ze erg hebben genoten van
+              mijn workshop. Anderen vertellen me dat ze compleet anders naar hun eigen communicatiegewoonten zijn gaan
+              kijken.
+              <br><br>Lees verder voor de opties
+            </span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="pages">
+
+      <div class="page" id="public-speaking-rotterdam">
+        <h3>
+          <span class="english">Captivating Speaking Overview (2h)</span>
+          <span class="dutch">Pakkend Spreken Overzicht (2h)</span>
+        </h3>
+        <p>
+          <span class="english">
+            <ul>
+              <li>Overview of all that there’s to learn when it comes to public speaking</li>
+              <li>Have your questions about what makes a captivating speaker answered in a demonstrative and tangible
+                way.</li>
+              <li>Captivating speaking cheatsheet with everything you want to remember about good speaking.</li>
+            </ul>
+          </span>
+          <span class="dutch">
+            <ul>
+              <li>Overview of all that there’s to learn when it comes to public speaking</li>
+              <li>Have your questions about what makes a captivating speaker answered in a demonstrative and tangible
+                way.</li>
+              <li>Captivating speaking cheatsheet with everything you want to remember about good speaking.</li>
+            </ul>
+          </span>
+        </p>
+        <button class="active-button"><span class="english">Learn more</span><span class="dutch">Bekijk training</span></button>
+      </div>
+      <div class="page" id="whypublic-speaking">
+        <h3>
+          <span class="english">
+            Captivating Speaking Training (3,5h)
+          </span>
+          <span class="dutch">
+            Pakkend Spreken Training (3,5h)
+          </span>
+          
+        </h3>
+        <!-- <img src="foot.png" id="foot"> -->
+        <p>
+          <span class="english">
+            <ul>
+              <li>Everything from the Captivating Speaking Overview workshop</li>
+              <li>Deliberate practice rounds for every participant (4-10)</li>
+              <li>Getting quality feedback on your own speaking and communication habits.</li>
+            </ul>
+          </span>
+          <span class="dutch">
+            <ul>
+              <li>Everything from the Captivating Speaking Overview workshop</li>
+              <li>Deliberate practice rounds for every participant (4-10)</li>
+              <li>Getting quality feedback on your own speaking and communication habits.</li>
+            </ul>
+          </span>
+        </p>
+        <button class="active-button"><span class="english">Learn more</span><span class="dutch">Bekijk training</span></button>
+      </div>
+      <div class="page" id="whypublic-speaking">
+        <h3>
+          <span class="english">
+            Captivating Speaking Day Training (6h)
+          </span>
+          <span class="dutch">
+            Pakkend Spreken Dagtraining (6h)
+          </span>
+        </h3>
+        <!-- <img src="foot.png" id="foot"> -->
+        <p>
+          <span class="english">
+            <ul>
+              <li>
+                Everything from the Captivating Speaking Training
+              </li>
+              <li>
+                More rounds in the practice - self-awareness- practice cycle
+              </li>
+              <li>
+                Practice, practice, practice
+              </li>
+              <li>
+                Completely change your relationship with public speaking in an afternoon
+              </li>
+            </ul>
+
+          </span>
+          <span class="dutch">
+            <ul>
+              <li>
+                Everything from the Captivating Speaking Training
+              </li>
+              <li>
+                More rounds in the practice - self-awareness- practice cycle
+              </li>
+              <li>
+                Practice, practice, practice
+              </li>
+              <li>
+                Completely change your relationship with public speaking in an afternoon
+              </li>
+            </ul>
+          </span>
+        </p>
+        <button class="active-button"><span class="english">Learn more</span><span class="dutch">Bekijk training</span></button>
+      </div>
+
+    </div>
+  </main>
+  <div id="reviews-container">
+    <h3 style="text-align: center;">
+      <span class="english">What past participants say</span>
+      <span class="dutch">Wat oude deelnemers zeggen</span>
+    </h3>
+    <div id="reviews">
+      <div class="review" style="cursor:pointer;" onclick="window.open('https://goo.gl/maps/bq8jvgxi6EfjN3bJ6')">
+        <h4 class="reviewer-name">
+          Find me on Maps
+        </h4>
+        <p class="review-text">
+          <img src="assets/maps.png" style="width:50%;filter:opacity(0.7);margin-top:20px;">
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Alies
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Mewis kan op vermakelijke wijze over serieuze onderwerpen college geven. Mewis houdt een groep mensen met
+          verschillende achtergronden lang geboeid, en spreekt inspirerend over psychologie, zijn eigen ervaring en het
+          leven.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Sonia
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Great speaker, which has a funny way to entertain the audience. The time past fast as we were captivated by
+          his stories.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Aishameriane
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Mewis has true passion for public speaking and engage the group in a very nice walk through Rotterdam.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Sonny
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Excellent! Mewis knows how to captivate an audience and always keep it interesting.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Christopher
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          A big thank you to Mewis, who provided a highly entertaining, informative and passionate walk in his own
+          inimitable style.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Tijn
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Hele leuke en leerzame training met de enthousiaste Mewis
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Kati
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Veel nieuwe dingen geleerd op een originele en authentieke manier!
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Justin
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Mewis is a public speaking pro! He kept his flow throughout the 2 hours, with all guests entertained and
+          engaged. His stories were on point and his delivery exceptional.
+        </p>
+      </div>
+
+      <div class="review">
+        <h4 class="reviewer-name">
+          Tobias
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Mewis was easy to understand and hilarious to listen to, even in front of loud streets.
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Emma
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Super fun walk with the wonderful Mewis. He's totally charming , knowledgeable and engaging. Totally
+          recommend!
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Maite
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Cool, funny, sharp, lots of energy, personal. I loved it!
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Mia
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Intrigrerende wandeling door Rotterdam, passievol gesproken en veel geleerd!
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Michaela
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Funny and interesting Information!
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Aleks
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Great interactive experience!
+        </p>
+      </div>
+      <div class="review">
+        <h4 class="reviewer-name">
+          Lorenzo
+        </h4>
+        <p class="rating">★★★★★</p>
+        <p class="review-text">
+          Increíble , este hombre es un genio.
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <footer id="contact">
+    <p>
+      <a href="mailto:mewis@publicspeakingwalk.com">mewis@publicspeakingwalk.com</a> <br>
+      <a href="+31628072215">+31628072215</a> <br>
+    </p>
+  </footer>
+
+  <div id="book-me">
+    <h3>Contact</h3>
+    <p>
+      <a href="mailto:mewis@publicspeakingwalk.com">mewis@publicspeakingwalk.com</a> <br>
+      <a href="+31628072215">+31628072215</a> <br>
+    </p>
+    <p>
+      <span class="english">
+        Leave your details and your request, I will get back to you as soon as I can!
+      </span>
+      <span class="dutch">
+        Laat je gegevens en je aanvraag achter, dan neem ik zo snel mogelijk contact op!
+      </span>
+    </p>
+    <input type="text" name="user" placeholder="Name" id="user-name">
+    <input type="text" name="number" placeholder="Tel. Nr." id="phone-number">
+    <textarea placeholder="Specify your request" name="comments" id="comments" cols="40" rows="6"></textarea>
+    <div id="book-me-buttons">
+      <button id="book-me-cancel" onclick="hideBookMe()">Cancel</button>
+      <button id="book-me-submit" onclick="bookMe()">Send</button>
+    </div>
+  </div>
+</body>
+
+</html>
