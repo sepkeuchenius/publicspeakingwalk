@@ -80,6 +80,7 @@ function hideBookMe() {
   var SCROLLWIDTH = 2000
   i = 1
   $(document).ready(function () {
+    createNiceBullets()
     scrollReviews()
     window.setInterval(scrollReviews, SCROLLTIMER)
     if (window.location.hostname.includes(".nl") || window.location.search.includes("nl")) {
@@ -103,4 +104,9 @@ function hideBookMe() {
       $('#reviews-container').show()
     }
 
+  }
+  function createNiceBullets(){
+    $("li").each(function(){
+        $(this).prepend('<span class="fa-li"><i class="fa-solid fa-check-square"></i></span>')
+    })
   }
