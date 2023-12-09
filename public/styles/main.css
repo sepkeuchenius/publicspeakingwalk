@@ -520,7 +520,8 @@ section {
     position: fixed;
     top:20px;
     left:30px;
-    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #94bce1;
     cursor: pointer;
+    font-size: 30px;;
+    font-weight: lighter;
 }

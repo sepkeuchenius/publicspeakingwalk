@@ -170,7 +170,12 @@
     .hero header {
         width:130px;
         top:10px;
-        left:10px;
+        left:20px;
+        -webkit-text-stroke-color: #94bce1;
+        color: #94bce1;
+        -webkit-text-stroke-width: 1px;
+        font-size: 20px;;
+        text-align: left;
     }
     h1 {
         padding:20px;
