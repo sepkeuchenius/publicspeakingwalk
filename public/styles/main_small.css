@@ -7,8 +7,6 @@
     }
     nav {
         text-align: right;
-        width:100%;
-        /* background-color: #7195b3; */
         box-sizing: border-box;
         top: 0;
         right:10px;
@@ -26,7 +24,7 @@
         width: 100%;
         box-sizing: border-box;
         padding: 10px;
-        margin:50px 0;
+        margin:20px 0;
         padding: 10px max(30px, calc(50% - 200px));
     }
     
@@ -39,8 +37,7 @@
 
     }
     footer {
-        padding-left:30px;
-        height:auto;
+        height:200px;
     }
     #subsubhero {
         margin-left:0;
@@ -56,11 +53,11 @@
         font-weight: normal;
         font-size:18px;
         padding: 0px calc(50% - 200px);
-        margin:60px 0;
+        margin:20px 0;
     }
     .hero {
         padding:90px 0;
-        height:90px;
+        height:250px;
         background: url('../assets/mewis-blurred.png') 32% 60%/172% no-repeat;
         background: url('../assets/mewis-blurred.png') 32% 58%/170% no-repeat
     }
@@ -132,10 +129,9 @@
     #skyline {
         margin-top:60px;
         width:90%;
-        margin-left:5%;
     }
     #title {
-        margin:70px 0;
+        margin:30px 0 0 0;
     }
     #pricing-content{
         margin:0;
@@ -154,7 +150,7 @@
         max-width: max(100%, 700px);
         display: block;
         margin:10px auto;
-        margin-top:100px;
+        margin-top:50px;
         vertical-align: sub;
     }
     #i-m-mewis{
@@ -169,12 +165,15 @@
     }
 
     article {
-        padding: 0 10px;
+        padding: 0 20px;
     }
     .hero header {
         width:130px;
         top:10px;
         left:10px;
+    }
+    h1 {
+        padding:20px;
     }
 
 }
