@@ -34,9 +34,12 @@
       {
         "source": "/captivating-speaking-workshop-overview",
         "destination": "/captivating-speaking-workshop-overview.html"
+      },
+      {
+        "source": "/about-mewis",
+        "destination": "/about-mewis.html"
       }
     ]
-
   },
   "emulators": {
     "functions": {
