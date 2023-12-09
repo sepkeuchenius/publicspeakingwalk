@@ -2,17 +2,20 @@
     main {
         padding: 5px 0;
     }
-    h1{
+
+    h1 {
         font-size: 43px;
     }
+
     nav {
         text-align: right;
         box-sizing: border-box;
         top: 0;
-        right:10px;
+        right: 10px;
         padding-top: 12px;
         padding-bottom: 16px;
     }
+
     nav a {
         border-bottom: none;
         padding: 6px;
@@ -20,145 +23,177 @@
         background: #759cba;
         border-radius: 7px;
     }
+
     .page {
         width: 100%;
         box-sizing: border-box;
         padding: 10px;
-        margin:20px 0;
+        margin: 20px 0;
         padding: 10px max(30px, calc(50% - 200px));
     }
-    
+
     .page p {
         /* background-color: transparent; */
-        font-size:13px;
+        font-size: 13px;
         /* padding:0; */
         padding: 0px calc(50% - 200px);
-        text-align: center;;
+        text-align: center;
+        ;
 
     }
+
     footer {
-        height:200px;
+        height: 200px;
     }
+
     #subsubhero {
-        margin-left:0;
-        padding:0 10px;
+        margin-left: 0;
+        padding: 0 10px;
         font-weight: normal;
-        font-size:15px;
+        font-size: 15px;
         padding: 0px calc(50% - 200px);
-        margin:60px 0;
+        margin: 60px 0;
     }
-    #subhero{
-        margin-left:0;
-        padding:0 10px;
+
+    #subhero {
+        margin-left: 0;
+        padding: 0 10px;
         font-weight: normal;
-        font-size:18px;
-        padding: 0px calc(50% - 200px);
-        margin:20px 0;
+        font-size: 18px;
+        padding: 0px max(10px, calc(50% - 200px));
+        margin: 20px 0;
     }
+
     .hero {
-        padding:90px 0;
-        height:250px;
+        padding: 90px 0;
+        height: 250px;
         background: url('../assets/mewis-blurred.png') 32% 60%/172% no-repeat;
         background: url('../assets/mewis-blurred.png') 32% 58%/170% no-repeat
     }
-    #reviews{
-        padding:0;
+
+    #reviews {
+        padding: 0;
     }
+
     #mewis {
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
-    .right, .right h3, .right p {
-        float:none;
+
+    .right,
+    .right h3,
+    .right p {
+        float: none;
         text-align: left;
     }
-    .page h3{
+
+    .page h3 {
         text-align: center;
     }
+
     .review {
-        width:200px;
-        font-size:12px;
+        width: 200px;
+        font-size: 12px;
     }
+
     #book-me {
-        width:90%;
-        left:5%;
+        width: 90%;
+        left: 5%;
     }
-    #book-me textarea{
-        width:80%;
+
+    #book-me textarea {
+        width: 80%;
     }
+
     #pages {
-        margin-bottom:60px;
-        margin-top:0px;
-        display:inline-block;
+        margin-bottom: 60px;
+        margin-top: 0px;
+        display: inline-block;
     }
+
     .reviewer-name {
-        margin:5px;
+        margin: 5px;
     }
+
     .rating {
-        margin:3px;
+        margin: 3px;
     }
 
     #foot {
-        margin:0 auto;
+        margin: 0 auto;
     }
+
     nav a {
-        font-size:15px;
+        font-size: 15px;
         font-weight: normal;
     }
-    #public-title-2{
-        display:block;
+
+    #public-title-2 {
+        display: block;
     }
+
     .language-button {
         vertical-align: -40%;
-        width:38px;
-        margin-right:5px;
+        width: 38px;
+        margin-right: 5px;
     }
-    #i-m-mewis{
-        margin:0;
-        width:100%;
-        padding:20px;
+
+    #i-m-mewis {
+        margin: 0;
+        width: 100%;
+        padding: 20px;
         box-sizing: border-box;
-        margin-top:100px;
-        margin-bottom:40px;
-        padding:100px 10px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        padding: 100px 10px;
     }
+
     #i-m-mewis p {
-        font-size:15px;
+        font-size: 15px;
         padding: 0px calc(50% - 200px);
 
     }
+
     #skyline {
-        margin-top:60px;
-        width:90%;
+        margin-top: 60px;
+        width: 90%;
     }
+
     #title {
-        margin:30px 0 0 0;
+        margin: 30px 0 0 0;
     }
-    #pricing-content{
-        margin:0;
-        font-size:18px;
-        width:auto;
+
+    #pricing-content {
+        margin: 0;
+        font-size: 18px;
+        width: auto;
     }
-    td{
-        padding:10px 0;
+
+    td {
+        padding: 10px 0;
     }
+
     #mewis-head {
-        width:200px;
+        width: 200px;
         display: block;
-        margin:10px auto;
+        margin: 10px auto;
     }
+
     #mewis-text {
         max-width: max(100%, 700px);
         display: block;
-        margin:10px auto;
-        margin-top:50px;
+        margin: 10px auto;
+        margin-top: 50px;
         vertical-align: sub;
     }
-    #i-m-mewis{
-        padding:50px;
+
+    #i-m-mewis {
+        padding: 50px;
     }
+
     .page h3 {
         text-align: left;
     }
+
     .page .active-button {
         left: calc(max(30px, calc(50% - 200px)) + 20px);
 
@@ -167,18 +202,21 @@
     article {
         padding: 0 20px;
     }
+
     .hero header {
-        width:130px;
-        top:10px;
-        left:20px;
+        width: 130px;
+        top: 10px;
+        left: 20px;
         -webkit-text-stroke-color: #94bce1;
         color: #94bce1;
         -webkit-text-stroke-width: 1px;
-        font-size: 20px;;
+        font-size: 20px;
+        ;
         text-align: left;
     }
+
     h1 {
-        padding:20px;
+        padding: 20px;
     }
 
 }
